@@ -40,14 +40,14 @@ INSTALLED_APPS = [
     'django_jenkins'
 ]
 
-PROJECT_APPS = (
-‘app1’
-)
+# PROJECT_APPS = (
+# ‘app1’
+# )
 
-JENKINS_TASKS = (
-‘django_jenkins.tasks.run_pep8’,
-‘django_jenkins.tasks.run_pyflakes’
-)
+# JENKINS_TASKS = (
+# django_jenkins.tasks.run_pep8,
+# django_jenkins.tasks.run_pyflakes
+# )
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
